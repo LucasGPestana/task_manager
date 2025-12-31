@@ -1,5 +1,7 @@
 # Task Manager
 
+Projeto que gerencia tarefas criadas pelo usuário
+
 ## Padrões de Projeto Usados
 
 Padrão de Projeto | Localização | Motivação
@@ -11,9 +13,9 @@ Adapter | [Classe abstrata DatabaseAPIAdapter](/data_access_layer/database_api_a
 
 O seguinte projeto implementa um padrão arquitetural de três camadas.
 
-[Camada de Apresentação](/presentation_layer/)
-[Camada de Serviço](/service_layer/)
-[Camada de Acesso aos Dados](/data_access_layer/)
+- [Camada de Apresentação](/presentation_layer/)
+- [Camada de Serviço](/service_layer/)
+- [Camada de Acesso aos Dados](/data_access_layer/)
 
 ## Estrutura do Projeto
 
