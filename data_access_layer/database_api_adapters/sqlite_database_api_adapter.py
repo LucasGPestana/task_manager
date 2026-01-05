@@ -70,7 +70,7 @@ class SQLiteDatabaseAPIAdapter(DatabaseAPIAdapter):
 
             return None
         
-        column_names = cursor.description
+        column_names = list(map(lambda x: x[0], cursor.description))
 
         data = [
             {column_name: value for column_name, value in zip(column_names, row)} 
@@ -91,7 +91,7 @@ class SQLiteDatabaseAPIAdapter(DatabaseAPIAdapter):
 
             return None
         
-        column_names = cursor.description
+        column_names = list(map(lambda x: x[0], cursor.description))
 
         data = {column_name: value for column_name, value in zip(column_names, row)}
 
