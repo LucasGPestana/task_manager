@@ -18,7 +18,7 @@ class SQLiteDatabaseAPIAdapter(DatabaseAPIAdapter):
 
         Returns
         -------
-        database.sqlite_database_adapter.SQLiteDatabaseAPIAdapter
+        data_access_layer.database_api_adapters.sqlite_database_adapter.SQLiteDatabaseAPIAdapter
             Objeto SQLiteDatabaseAPIAdapter alocado
         """
 
